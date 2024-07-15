@@ -1,0 +1,106 @@
+body {
+  background-image: linear-gradient(to left, lightblue, lightseagreen, rgb(26, 134, 188), lightseagreen, lightblue);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: rgb(46, 84, 167);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 60px; 
+  box-shadow: 0px 0px 15px blue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  text-shadow: 0px 0px 10px aquamarine;
+}
+
+.content {
+  padding-top: 80px; 
+}
+
+.pokemon
+{
+  background-color: lightblue;
+  border-radius: 75px 150px 75px 15px;
+  border: 0px;
+}
+
+.pokemonImg
+{
+  width: 150px;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.buttonD
+{
+  background-color: rgb(22, 129, 129);
+  border: 0px;
+}
+
+.delbutton
+{
+  float: right;
+}
+
+.favPokemon
+{
+  margin: 10px;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.464);
+}
+
+.linkfav
+{
+  text-decoration: none;
+  color: rgb(31, 125, 161);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.itemdetail
+{
+  background-color: rgba(153, 252, 219, 0.203);
+  width: 1000px;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 100px;
+  text-align: center;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.LogButton
+{
+  background-color: yellowgreen;
+  color: green;
+  margin-top: 10px;
+  border: 2px solid green;
+}
